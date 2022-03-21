@@ -66707,7 +66707,7 @@ n.l(0,"opt_steps_count",p.f.r)
 n.l(0,"game_data",A.Ga(p.f.cy))
 o=A.rc("https://parvus.robotics.tu-berlin.de:8000/")
 m=t.N
-m=A.aB(["Content-Type","application/json; charset=UTF-8"],m,m)
+m=A.aB(["Content-Type","application/json; charset=UTF-8","Access-Control-Allow-Origin","*"],m,m)
 s=3
 return A.aj(A.aCg(o,B.b9.K6(n,null),m),$async$uy)
 case 3:case 1:return A.V(q,r)}})
