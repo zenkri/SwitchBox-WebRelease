@@ -66693,7 +66693,7 @@ var $async$uy=A.Y(function(a,b){if(a===1)return A.U(b,r)
 while(true)switch(s){case 0:if(p.fy){s=1
 break}o=t.z
 n=A.x(o,o)
-n.l(0,"timestamp",new A.ef(Date.now(),!1))
+n.l(0,"timestamp",new A.ef(Date.now(),!1).i(0))
 n.l(0,"platform",p.ry)
 o=$.tB+"_"+$.C4+"_"+$.tx+"_"+A.e(A.a_r())
 n.l(0,"subject_id",A.anf(B.xR.cX(B.U.gjZ().cX(o)).a))
