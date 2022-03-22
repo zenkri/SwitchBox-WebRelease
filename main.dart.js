@@ -63819,7 +63819,7 @@ o.l(0,"opt_steps_count",q.f.r)
 o.l(0,"game_data",A.WE(q.f.cy))
 p=t.N
 s=2
-return A.aj(A.ah5("https://parvus.robotics.tu-berlin.de:8000","POST",A.aD(["Access-Control-Allow-Headers","Accept, Accept-Language, Content-Language, Content-Type","Content-Type","application/json; charset=UTF-8","Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","GET,HEAD,OPTIONS,POST,PUT"],p,p),null,B.b0.IZ(o,null)),$async$tG)
+return A.aj(A.ah5("https://parvus.robotics.tu-berlin.de:8000","POST",A.aD(["Content-Type","application/json; charset=UTF-8"],p,p),null,B.b0.IZ(o,null)),$async$tG)
 case 2:return A.a0(null,r)}})
 return A.a1($async$tG,r)},
 a8d(){var s,r,q,p,o,n,m=this,l=null,k=t.w,j=0.7*m.c.H(k).f.a.b/(m.d+2),i=0.6*m.c.H(k).f.a.a/(m.d+2)
