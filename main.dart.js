@@ -65569,7 +65569,7 @@ n.l(0,"opt_steps_count",q.f.r)
 n.l(0,"game_data",A.FU(q.f.cy))
 o=A.r4(u.P)
 p=t.N
-p=A.aA(["Access-Control-Allow-Headers","AContent-Type, X-Auth-Token, Authorization, Origin","Content-Type","application/json; charset=UTF-8","Access-Control-Allow-Origin","*","Access-Control-Allow-Origin",u.P,"Access-Control-Allow-Methods","GET,HEAD,OPTIONS,POST,PUT"],p,p)
+p=A.aA(["Content-Type","application/json; charset=UTF-8","Access-Control-Allow-Origin","*","Access-Control-Allow-Origin",u.P,"Access-Control-Allow-Methods","GET,HEAD,OPTIONS,POST,PUT"],p,p)
 s=2
 return A.af(A.aB5(o,B.b1.JU(n,null),p),$async$um)
 case 2:return A.a_(null,r)}})
