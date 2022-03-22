@@ -65569,7 +65569,7 @@ n.l(0,"opt_steps_count",q.f.r)
 n.l(0,"game_data",A.FU(q.f.cy))
 o=A.r4("https://parvus.robotics.tu-berlin.de:8000/")
 p=t.N
-p=A.aA(["Content-Type","application/json; charset=UTF-8","Access-Control-Allow-Headers: Authorization, Content-TypeAccess-Control-Allow-Origin","*","Access-Control-Allow-Methods","GET,POST,OPTIONS,DELETE,PUT"],p,p)
+p=A.aA(["Access-Control-Allow-Headers","Authorization, Content-Type","Content-Type","application/json; charset=UTF-8","Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","GET,POST,OPTIONS,DELETE,PUT"],p,p)
 s=2
 return A.af(A.aB5(o,B.b1.JU(n,null),p),$async$um)
 case 2:return A.a_(null,r)}})
